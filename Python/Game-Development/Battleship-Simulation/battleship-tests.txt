@@ -1,0 +1,41 @@
+# Test 1 (error)
+# This tests the programs behavior with the given file containing overlapping ships/coordinates.
+A 3 8 8 8
+B 4 5 4 9
+S 6 2 9 2
+D 2 2 2 5
+P 5 3 7 3
+# End of test
+
+# Test 2 (error)
+# This tests the programs behaviors with the given file containing more than 5 ships.
+A 1 1 1 6
+B 7 2 7 6
+D 9 4 9 7
+P 4 0 6 0
+A 3 9 8 9
+S 5 5 5 8
+# End of test
+
+# Test 3 (regular)
+# This tests the program's behavior on a file containing 5 ships with valid coordinate points.
+A 3 4 8 4
+B 2 8 6 4
+S 6 0 6 3
+D 0 4 0 7
+P 5 9 7 9
+# End of test
+
+# Test 4 (edge case)
+# This tests the programs behavior given an empty file.
+
+# End of test
+
+# Test 5 (regular)
+# This tests the program's behavior on a file containing 5 ships with valid coordinate points.
+P 0 0 2 0 
+S 3 6 6 6 
+A 9 3 9 8
+D 4 1 7 1
+B 2 4 2 8
+# End of test

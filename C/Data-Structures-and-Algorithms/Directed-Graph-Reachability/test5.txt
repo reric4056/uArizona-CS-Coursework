@@ -1,0 +1,6 @@
+@n X
+@n X
+@n Y
+@e X Y
+@e X Y
+@q X Y

@@ -1,0 +1,9 @@
+@n A
+@n B
+@n C
+@e A B
+@e B C
+@e C A
+@q A C
+@q C A
+@q B B

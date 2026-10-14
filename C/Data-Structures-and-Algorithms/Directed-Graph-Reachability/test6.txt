@@ -1,0 +1,4 @@
+@n A
+@e A B
+@q B A
+@q A B

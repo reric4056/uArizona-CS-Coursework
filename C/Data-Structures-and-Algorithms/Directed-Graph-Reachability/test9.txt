@@ -1,0 +1,12 @@
+@n A
+@n B
+@n C
+@n D
+@n E
+@e A B
+@e B C
+@e C D
+@e D E
+@q A E
+@q B E
+@q E A

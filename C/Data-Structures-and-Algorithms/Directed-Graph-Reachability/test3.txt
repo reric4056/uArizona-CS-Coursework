@@ -1,0 +1,7 @@
+@n Alpha
+@n Bravo
+@n Charlie
+@e Alpha Bravo
+@e Bravo Charlie
+@q Alpha Charlie
+@q Charlie Alpha

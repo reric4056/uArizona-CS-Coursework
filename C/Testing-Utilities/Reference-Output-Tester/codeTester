@@ -1,0 +1,32 @@
+#!/bin/bash
+# File: codeTester
+# Author: Eric Romero
+# Mission: For each file starting with 'test', run ./count and ./exCount,
+# capture stdout/stderr plus return codes, then report diffs.
+
+# Filenames
+myStdout="myOut"
+myStderr="myErr"
+exStdout="exOut"
+exStderr="exErr"
+
+# Iterate over all matching testing filess. Skip otherwise.
+for target in test*; do
+	[ -e "$target" ] || continue
+	
+	# Run your build
+	./count < "$target" > "$myStdout" 2> "$myStderr"
+	# Append return code to output
+	echo $? >> "$myStdout"
+
+	# Run example build, similar process
+	./exCount < "$target" > "$exStdout" 2> "$exStderr"
+	echo $? >> "$exStdout"
+
+	# Debrief
+	echo "Test File $target"
+	echo "stdout diffs:"
+	diff "$myStdout" "$exStdout"
+	echo "stderr diffs:"
+	diff "$myStderr" "$exStderr"
+done

@@ -1,0 +1,5 @@
+     @n  A
+@n     B    
+@e    A     B
+@q     A      B
+     

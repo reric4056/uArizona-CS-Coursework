@@ -21,6 +21,9 @@ My goal is to preserve these assignments while providing an organized record of 
 
 Some projects are complete implementations, while others are theoretical analyses, partial implementations, or exercises developed using instructor-provided frameworks. Unless otherwise noted, the files are preserved primarily in their original academic form.
 
+Please note that using my assignments without giving credit will be considered an act of plagiarism and will result in an academic integrity violation if used inappropriately in a school setting. Keep this in mind. 
+
+
 ---
 
 ## Programming Languages
